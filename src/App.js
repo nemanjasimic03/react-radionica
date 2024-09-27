@@ -16,7 +16,7 @@ function App() {
   const [niz, setniz] = useState(["asdsadsad", "sadasddsadsa","!3312","asdsadsad", "sadasddsadsa","!3312"])
 
   return (
-    <div>
+    <div className="container">
        <ToDoList></ToDoList>
     </div>
   );
